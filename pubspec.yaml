@@ -7,6 +7,7 @@ environment:
   sdk: ^3.9.2
 
 dependencies:
+  calendar_view: ^1.4.0
   flutter:
     sdk: flutter
   flutter_local_notifications: ^19.5.0

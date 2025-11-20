@@ -10,6 +10,7 @@
 // NOTA: para notificaciones locales y scheduling debes configurar permisos nativos (Android/iOS).
 
 import 'package:flutter/material.dart';
+import 'package:journey_unit/calendar.dart';
 import 'package:journey_unit/components.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -270,7 +271,7 @@ class AppDrawer extends StatelessWidget {
             title: Text('Medicaciones'),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (_) => MedicationScreen()),
+              MaterialPageRoute(builder: (_) => CalendarScreen()),
             ),
           ),
           ListTile(
